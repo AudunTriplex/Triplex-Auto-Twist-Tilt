@@ -1,13 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TcPlcObject Version="1.1.0.1">
-  <POU Name="MAIN" Id="{7229c79b-ffb5-4a7c-9e41-6545460c70da}">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.5">
+  <POU Name="MAIN" Id="{7229c79b-ffb5-4a7c-9e41-6545460c70da}" SpecialFunc="None">
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
+	//stTestInstance : ST_Event;
+	bBoolean : BOOL := FALSE;
+	
+	eEventType1 : E_EventType := E_EventType.Alarm;
+	eEventSeverity1 : TcEventSeverity := TcEventSeverity.Critical;
+	nEventIdentity1 : UDINT := 42;
+	sEventText1: STRING(255) := 'spooky event';
+	
+	EventLogger : EventLogger;
 END_VAR
-]]>
-    </Declaration>
+]]></Declaration>
     <Implementation>
-      <ST><![CDATA[]]></ST>
+      <ST><![CDATA[(*IF NOT bBoolean THEN
+	UpdateEventTimeStampWithSystemTime(stEvent := stTestInstance);
+	bBoolean := TRUE;
+END_IF *)
+
+IF bBoolean THEN
+	EventLogger.AddEvent(eEventType1, eEventSeverity1, nEventIdentity1, sEventText1);
+	bBoolean := FALSE;
+END_IF]]></ST>
     </Implementation>
+    <LineIds Name="MAIN">
+      <LineId Id="2" Count="0" />
+      <LineId Id="8" Count="0" />
+      <LineId Id="10" Count="0" />
+      <LineId Id="9" Count="0" />
+      <LineId Id="22" Count="0" />
+      <LineId Id="21" Count="0" />
+      <LineId Id="23" Count="0" />
+      <LineId Id="26" Count="0" />
+      <LineId Id="24" Count="0" />
+    </LineIds>
   </POU>
 </TcPlcObject>
