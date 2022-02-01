@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-01T17:32:18.322Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="alLKU9xtp6VU_Y-UmXVR" version="16.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-01T17:33:23.189Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="2bZwM7DHNL0kjWoQaNtH" version="16.5.2" type="github">
   <diagram id="3IDigvRRMcRTQ0nVxwdr" name="Page-1">
     <mxGraphModel dx="2110" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="NwX43e7jFNp0CeNZ7ZFr-38" value="Module: NW Deck panel" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="40" y="130" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-1" value="HMI panel for&lt;br&gt;logging and read raw values, overview and other drive modes selections&lt;br&gt;&lt;br&gt;NW control&lt;br&gt;&lt;br&gt;Radio control&lt;br&gt;&lt;br&gt;Calibration&lt;br&gt;&lt;br&gt;Auto twist&lt;br&gt;calculations&lt;br&gt;&lt;br&gt;Auto tilt&lt;br&gt;calculations" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-1" value="HMI panel for&lt;br&gt;logging and read raw values, overview and other drive modes selections&lt;br&gt;&lt;br&gt;NW control&lt;br&gt;&lt;br&gt;Radio control&lt;br&gt;&lt;br&gt;Calibration&lt;br&gt;&lt;br&gt;Auto twist&lt;br&gt;calculations&lt;br&gt;&lt;br&gt;Auto tilt&lt;br&gt;calculations&lt;br&gt;&lt;br&gt;sensor value overview" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="130" width="140" height="920" as="geometry" />
         </mxCell>
         <mxCell id="NwX43e7jFNp0CeNZ7ZFr-2" value="&lt;font color=&quot;#ff3333&quot;&gt;Emrg.stop NW/netbin&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.122;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" target="NwX43e7jFNp0CeNZ7ZFr-4">
