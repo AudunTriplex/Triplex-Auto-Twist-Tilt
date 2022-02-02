@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-02T10:24:40.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="putBvg4WWAHDQx8sauV0" version="16.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-02T10:43:01.341Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="cal2CP75aDV0fMZMgHse" version="16.5.2" type="github">
   <diagram id="3IDigvRRMcRTQ0nVxwdr" name="Page-1">
-    <mxGraphModel dx="2110" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2960" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="760" y="386.36" width="160" height="210" as="geometry" />
         </mxCell>
         <mxCell id="NwX43e7jFNp0CeNZ7ZFr-44" value="Module: NW unit&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="40" y="450" width="160" height="120" as="geometry" />
+          <mxGeometry x="-280" y="450" width="480" height="120" as="geometry" />
         </mxCell>
         <mxCell id="NwX43e7jFNp0CeNZ7ZFr-39" value="Module: NW Bridge panel" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="40" y="290" width="160" height="120" as="geometry" />
@@ -16,7 +16,7 @@
         <mxCell id="NwX43e7jFNp0CeNZ7ZFr-38" value="Module: NW Deck panel" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="40" y="130" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-1" value="HMI panel for&lt;br&gt;logging and read raw values, overview and other drive modes selections&lt;br&gt;&lt;br&gt;NW control&lt;br&gt;&lt;br&gt;Radio control&lt;br&gt;&lt;br&gt;Calibration&lt;br&gt;&lt;br&gt;Auto twist&lt;br&gt;calculations&lt;br&gt;&lt;br&gt;Auto tilt&lt;br&gt;calculations&lt;br&gt;&lt;br&gt;sensor value overview" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-1" value="HMI panel for&lt;br&gt;logging and read raw values, overview and other drive modes selections&lt;br&gt;&lt;br&gt;NW control&lt;br&gt;&lt;br&gt;Radio control&lt;br&gt;&lt;br&gt;Calibration&lt;br&gt;&lt;br&gt;Auto twist&lt;br&gt;calculations&lt;br&gt;&lt;br&gt;Auto tilt&lt;br&gt;calculations&lt;br&gt;&lt;br&gt;sensor value overview&lt;br&gt;and criteria/confirmations handling" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="130" width="140" height="920" as="geometry" />
         </mxCell>
         <mxCell id="NwX43e7jFNp0CeNZ7ZFr-2" value="&lt;font color=&quot;#ff3333&quot;&gt;Emrg.stop NW/netbin&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.122;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" target="NwX43e7jFNp0CeNZ7ZFr-4">
@@ -27,28 +27,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NwX43e7jFNp0CeNZ7ZFr-3" value="NW in emrg drive, only operational from bridge panel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" width="120" height="70" as="geometry" />
+          <mxGeometry x="-110" y="490" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NwX43e7jFNp0CeNZ7ZFr-4" value="Stop all cranes and NW. event logged" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-9" value="&lt;font color=&quot;#ff3333&quot;&gt;Emrg drive NW&lt;br&gt;toggled by HMI&lt;/font&gt;" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="NwX43e7jFNp0CeNZ7ZFr-1" target="NwX43e7jFNp0CeNZ7ZFr-3">
+        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-9" value="&lt;font color=&quot;#ff3333&quot;&gt;Emrg drive NW&lt;br&gt;toggled by HMI&lt;/font&gt;" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NwX43e7jFNp0CeNZ7ZFr-1" target="NwX43e7jFNp0CeNZ7ZFr-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="109.55999999999995" as="sourcePoint" />
-            <mxPoint x="479.02" y="385" as="targetPoint" />
+            <mxPoint x="-50" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-20" y="590" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-10" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NwX43e7jFNp0CeNZ7ZFr-3" target="NwX43e7jFNp0CeNZ7ZFr-11">
+        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-10" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NwX43e7jFNp0CeNZ7ZFr-3" target="NwX43e7jFNp0CeNZ7ZFr-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="780" y="400" as="sourcePoint" />
             <mxPoint x="770" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NwX43e7jFNp0CeNZ7ZFr-11" value="Optional hardware bypass komponents to drive NW directly from raw panel signals down to the valves" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" width="130" height="70" as="geometry" />
+          <mxGeometry x="-260" y="490" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NwX43e7jFNp0CeNZ7ZFr-12" value="Tilt in/out&lt;br&gt;Speed&lt;br&gt;Tension&lt;br&gt;Direction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="490" width="120" height="80" as="geometry" />
+          <mxGeometry x="30" y="485" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NwX43e7jFNp0CeNZ7ZFr-17" value="Tilt in/out&lt;br&gt;Net in/stop/out&lt;br&gt;Speed&lt;br&gt;Tension&lt;br&gt;Emrg.NW stopp" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="310" width="120" height="100" as="geometry" />
@@ -231,7 +234,7 @@
             <mxPoint x="775" y="452.43999999999994" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-83" value="Switch on crane is on Manuel&amp;nbsp;mode&lt;br&gt;general start criteria for anyitem&lt;br&gt;emrg.stop local or facility ok" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" vertex="1" connectable="0" parent="NwX43e7jFNp0CeNZ7ZFr-82">
+        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-83" value="Switch on crane is on Manuel&amp;nbsp;mode&lt;br&gt;general start criteria for anyitem&lt;br&gt;emrg.stop local or facility ok&lt;br&gt;Radio control drive signals" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" vertex="1" connectable="0" parent="NwX43e7jFNp0CeNZ7ZFr-82">
           <mxGeometry x="-0.2108" relative="1" as="geometry">
             <mxPoint x="16" as="offset" />
           </mxGeometry>
@@ -279,27 +282,8 @@
             <mxPoint x="16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-98" value="&lt;font color=&quot;#000000&quot;&gt;sensors online&lt;br&gt;angle and encoders.&lt;br&gt;Items are within operation range&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="910" y="130" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-99" value="&lt;font color=&quot;#000000&quot;&gt;sensors sensing check&lt;br&gt;(drive jib/boom = expect new angle values)&lt;br&gt;(drive swing and twist = expect new angle values)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="910" width="120" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-100" value="&lt;font color=&quot;#ff3333&quot;&gt;Sensors confirmations&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;entryX=1.014;entryY=0.182;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NwX43e7jFNp0CeNZ7ZFr-99" target="NwX43e7jFNp0CeNZ7ZFr-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="960" y="470" as="sourcePoint" />
-            <mxPoint x="1010" y="420" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="850" y="65" />
-              <mxPoint x="850" y="290" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-102" value="" style="endArrow=none;html=1;rounded=0;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="NwX43e7jFNp0CeNZ7ZFr-98">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="850" y="160" as="sourcePoint" />
-            <mxPoint x="1010" y="420" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-99" value="&lt;font color=&quot;#000000&quot;&gt;sensors sensing check&lt;br&gt;(drive jib/boom = expect new angle values)&lt;br&gt;(drive swing and twist = expect new angle values)&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;sensors online&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;angle and encoders.&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;Items are within operation range&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="840" y="30" width="250" height="130" as="geometry" />
         </mxCell>
         <mxCell id="NwX43e7jFNp0CeNZ7ZFr-103" value="Sensor on crane body&lt;br&gt;&amp;nbsp;always gives positions" style="endArrow=classic;html=1;rounded=0;fontColor=#FF3333;exitX=1.013;exitY=0.936;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.014;entryY=0.861;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NwX43e7jFNp0CeNZ7ZFr-50" target="NwX43e7jFNp0CeNZ7ZFr-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -311,6 +295,20 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="784.02" y="875" as="sourcePoint" />
             <mxPoint x="550" y="879.6800000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-107" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontColor=#FF3333;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NwX43e7jFNp0CeNZ7ZFr-1" target="NwX43e7jFNp0CeNZ7ZFr-99">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="350" as="sourcePoint" />
+            <mxPoint x="810" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="505" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-108" value="Sensors confirmations" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" vertex="1" connectable="0" parent="NwX43e7jFNp0CeNZ7ZFr-107">
+          <mxGeometry x="-0.0759" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
