@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-01T17:33:23.189Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="2bZwM7DHNL0kjWoQaNtH" version="16.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-02T10:24:40.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="putBvg4WWAHDQx8sauV0" version="16.5.2" type="github">
   <diagram id="3IDigvRRMcRTQ0nVxwdr" name="Page-1">
     <mxGraphModel dx="2110" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -124,13 +124,13 @@
         <mxCell id="NwX43e7jFNp0CeNZ7ZFr-56" value="&lt;font color=&quot;#000000&quot;&gt;Drive crane by radio&lt;br&gt;(valves still accessible)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="60" y="740" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-57" value="&lt;span style=&quot;color: rgb(255 , 51 , 51) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;Switch on crane is on Radio mode&lt;/span&gt;&lt;br style=&quot;color: rgb(255 , 51 , 51) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;general start criteria for anyitem&lt;/span&gt;&lt;br style=&quot;color: rgb(255 , 51 , 51) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;emrg.stop local or facility ok&lt;br&gt;&lt;/span&gt;Radio on canopen" style="endArrow=classic;html=1;rounded=0;fontColor=#FF3333;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.029;exitY=0.743;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NwX43e7jFNp0CeNZ7ZFr-1" target="NwX43e7jFNp0CeNZ7ZFr-56">
+        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-57" value="&lt;span style=&quot;color: rgb(255 , 51 , 51) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;Switch on crane is on Radio mode&lt;/span&gt;&lt;br style=&quot;color: rgb(255 , 51 , 51) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;general start criteria for anyitem&lt;/span&gt;&lt;br style=&quot;color: rgb(255 , 51 , 51) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;emrg.stop local or facility ok&lt;br&gt;&lt;/span&gt;Radio control drive signals" style="endArrow=classic;html=1;rounded=0;fontColor=#FF3333;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.029;exitY=0.743;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NwX43e7jFNp0CeNZ7ZFr-1" target="NwX43e7jFNp0CeNZ7ZFr-56">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="760" as="sourcePoint" />
             <mxPoint x="1010" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-58" value="&lt;font color=&quot;#ff3333&quot;&gt;Crane active&amp;nbsp;&lt;br&gt;Radio PDO&lt;br&gt;&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.653;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NwX43e7jFNp0CeNZ7ZFr-56" target="NwX43e7jFNp0CeNZ7ZFr-1">
+        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-58" value="&lt;font color=&quot;#ff3333&quot;&gt;Crane active&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;Radio on canopen and&lt;/span&gt;&lt;font color=&quot;#ff3333&quot;&gt;&amp;nbsp;PDO&lt;br&gt;&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.653;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NwX43e7jFNp0CeNZ7ZFr-56" target="NwX43e7jFNp0CeNZ7ZFr-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="960" y="490" as="sourcePoint" />
             <mxPoint x="1010" y="440" as="targetPoint" />
@@ -148,7 +148,7 @@
         <mxCell id="NwX43e7jFNp0CeNZ7ZFr-61" value="&lt;font color=&quot;#000000&quot;&gt;Auto twist mode for FLH:&lt;br&gt;FLH roller head twist and are aiming after NHC roller head. This happens when NHC or FLH roller heads change positions and not by orientations&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="40" y="940" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-63" value="&lt;font color=&quot;#ff3333&quot;&gt;Crane active&lt;br&gt;Auto twist mode&lt;br&gt;Radio PDO&lt;br&gt;&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.816;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NwX43e7jFNp0CeNZ7ZFr-59" target="NwX43e7jFNp0CeNZ7ZFr-1">
+        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-63" value="&lt;font color=&quot;#ff3333&quot;&gt;Crane active&lt;br&gt;Auto twist mode / calculation drive&lt;br&gt;Radio on canopen and PDO&lt;br&gt;&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.816;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NwX43e7jFNp0CeNZ7ZFr-59" target="NwX43e7jFNp0CeNZ7ZFr-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="280" y="920" as="sourcePoint" />
             <mxPoint x="330" y="870" as="targetPoint" />
@@ -192,7 +192,7 @@
             <mxPoint x="812.06" y="790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-73" value="Switch on crane is on Radio mode&lt;br&gt;general start criteria for anyitem&lt;br&gt;emrg.stop local or facility ok&lt;br&gt;Radio on canopen" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" vertex="1" connectable="0" parent="NwX43e7jFNp0CeNZ7ZFr-72">
+        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-73" value="Switch on crane is on Radio mode&lt;br&gt;general start criteria for anyitem&lt;br&gt;emrg.stop local or facility ok&lt;br&gt;Radio control drive signals" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" vertex="1" connectable="0" parent="NwX43e7jFNp0CeNZ7ZFr-72">
           <mxGeometry x="-0.2108" relative="1" as="geometry">
             <mxPoint x="16" as="offset" />
           </mxGeometry>
@@ -200,7 +200,7 @@
         <mxCell id="NwX43e7jFNp0CeNZ7ZFr-74" value="&lt;font color=&quot;#000000&quot;&gt;Auto twist mode&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="774.02" y="850" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-75" value="&lt;font color=&quot;#ff3333&quot;&gt;Crane active&lt;br&gt;Auto twist mode&lt;br&gt;Radio PDO&lt;br&gt;&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.804;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NwX43e7jFNp0CeNZ7ZFr-74" target="NwX43e7jFNp0CeNZ7ZFr-1">
+        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-75" value="&lt;font color=&quot;#ff3333&quot;&gt;Crane active&lt;br&gt;Auto twist mode / calculation drive&lt;br&gt;Radio on canopen and PDO&lt;br&gt;&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.804;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NwX43e7jFNp0CeNZ7ZFr-74" target="NwX43e7jFNp0CeNZ7ZFr-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="600.98" y="934.28" as="sourcePoint" />
             <mxPoint x="820" y="929.9999999999998" as="targetPoint" />
@@ -266,6 +266,51 @@
               <mxPoint x="1000" y="770" />
               <mxPoint x="1000" y="556" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-96" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#FF3333;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NwX43e7jFNp0CeNZ7ZFr-1" target="NwX43e7jFNp0CeNZ7ZFr-90">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="575.84" as="sourcePoint" />
+            <mxPoint x="864.02" y="536.88" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-97" value="Switch on crane is on Radio mode&lt;br&gt;general start criteria for anyitem&lt;br&gt;emrg.stop local or facility ok&lt;br&gt;Radio control drive signals" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" vertex="1" connectable="0" parent="NwX43e7jFNp0CeNZ7ZFr-96">
+          <mxGeometry x="-0.2108" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-98" value="&lt;font color=&quot;#000000&quot;&gt;sensors online&lt;br&gt;angle and encoders.&lt;br&gt;Items are within operation range&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="910" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-99" value="&lt;font color=&quot;#000000&quot;&gt;sensors sensing check&lt;br&gt;(drive jib/boom = expect new angle values)&lt;br&gt;(drive swing and twist = expect new angle values)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="910" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-100" value="&lt;font color=&quot;#ff3333&quot;&gt;Sensors confirmations&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;entryX=1.014;entryY=0.182;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NwX43e7jFNp0CeNZ7ZFr-99" target="NwX43e7jFNp0CeNZ7ZFr-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="470" as="sourcePoint" />
+            <mxPoint x="1010" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="850" y="65" />
+              <mxPoint x="850" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-102" value="" style="endArrow=none;html=1;rounded=0;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="NwX43e7jFNp0CeNZ7ZFr-98">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="160" as="sourcePoint" />
+            <mxPoint x="1010" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-103" value="Sensor on crane body&lt;br&gt;&amp;nbsp;always gives positions" style="endArrow=classic;html=1;rounded=0;fontColor=#FF3333;exitX=1.013;exitY=0.936;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.014;entryY=0.861;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NwX43e7jFNp0CeNZ7ZFr-50" target="NwX43e7jFNp0CeNZ7ZFr-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="950" as="sourcePoint" />
+            <mxPoint x="340" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NwX43e7jFNp0CeNZ7ZFr-104" value="&lt;font color=&quot;#ff3333&quot;&gt;Sensor on crane body&lt;br&gt;always gives positions&lt;br&gt;&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;exitX=0;exitY=0.939;exitDx=0;exitDy=0;entryX=0.993;entryY=0.851;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="NwX43e7jFNp0CeNZ7ZFr-64" target="NwX43e7jFNp0CeNZ7ZFr-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="784.02" y="875" as="sourcePoint" />
+            <mxPoint x="550" y="879.6800000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
