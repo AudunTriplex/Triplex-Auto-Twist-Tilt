@@ -1,0 +1,1105 @@
+<mxfile host="app.diagrams.net" modified="2022-03-15T14:06:51.289Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="VTW6xzl1NyraYtWEQAR0" version="16.6.2" type="github">
+  <diagram id="i3dqL916s062MHXm5JMA" name="Page-1">
+    <mxGraphModel dx="3152" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-1" value="Module: TRC&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="190" y="376.36" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-2" value="Module: NW unit&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="-850" y="440" width="480" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-3" value="Module: NW Bridge panel" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="-530" y="280" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-4" value="Module: NW Deck panel" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="-530" y="120" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-5" value="HMI panel for&lt;br&gt;logging and read raw values, overview and other drive modes selections&lt;br&gt;&lt;br&gt;NW control&lt;br&gt;&lt;br&gt;Radio control&lt;br&gt;&lt;br&gt;Calibration&lt;br&gt;&lt;br&gt;Auto twist&lt;br&gt;calculations&lt;br&gt;&lt;br&gt;Auto tilt&lt;br&gt;calculations&lt;br&gt;&lt;br&gt;sensor value overview&lt;br&gt;and criteria/confirmations handling" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-170" y="120" width="140" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-6" value="&lt;font color=&quot;#ff3333&quot;&gt;Emrg.stop NW/netbin&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.122;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" target="tPOuBQZp9NRRLLhWcbRF-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-30" y="152.24" as="sourcePoint" />
+            <mxPoint x="10" y="450" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-7" value="NW in emrg drive, only operational from bridge panel" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-680" y="480" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-8" value="Stop all cranes and NW. event logged" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-9" value="&lt;font color=&quot;#ff3333&quot;&gt;Emrg drive NW&lt;br&gt;toggled by HMI&lt;/font&gt;" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="tPOuBQZp9NRRLLhWcbRF-5" target="tPOuBQZp9NRRLLhWcbRF-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-130" y="99.55999999999995" as="sourcePoint" />
+            <mxPoint x="-620" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-590" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-10" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="tPOuBQZp9NRRLLhWcbRF-7" target="tPOuBQZp9NRRLLhWcbRF-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="390" as="sourcePoint" />
+            <mxPoint x="200" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-11" value="Optional hardware bypass komponents to drive NW directly from raw panel signals down to the valves" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-830" y="480" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-12" value="Tilt in/out&lt;br&gt;Speed&lt;br&gt;Tension&lt;br&gt;Direction" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-540" y="475" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-13" value="Tilt in/out&lt;br&gt;Net in/stop/out&lt;br&gt;Speed&lt;br&gt;Tension&lt;br&gt;Emrg.NW stopp" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-510" y="300" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-14" value="Tilt in/out&lt;br&gt;Net in/stop/out&lt;br&gt;Speed&lt;br&gt;Tension&lt;br&gt;Emrg.NW stopp" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-510" y="150" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-15" value="HPU, starters/drive OK or operational&lt;br&gt;request drive and driving confirmation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-16" value="Check for all module is online.(supply and etherCAT com ok)&lt;br&gt;&amp;nbsp;HPU, Starters/drive OK or operational.&lt;br&gt;Local emrgstop only stop the applicable crane&lt;br&gt;NW bridge/deck panels and net bin emrgstop stops the entire facility." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-530" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-17" value="NW command signals" style="endArrow=classic;html=1;rounded=0;fontColor=#FF3333;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="tPOuBQZp9NRRLLhWcbRF-13" target="tPOuBQZp9NRRLLhWcbRF-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-310" y="370" as="sourcePoint" />
+            <mxPoint x="-220" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-18" value="NW command signals" style="endArrow=classic;html=1;rounded=0;fontColor=#FF3333;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.007;entryY=0.077;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tPOuBQZp9NRRLLhWcbRF-14" target="tPOuBQZp9NRRLLhWcbRF-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-290" y="205" as="sourcePoint" />
+            <mxPoint x="-240" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-19" value="NW Drive signals" style="endArrow=classic;html=1;rounded=0;fontColor=#FF3333;exitX=0;exitY=0.435;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="tPOuBQZp9NRRLLhWcbRF-5" target="tPOuBQZp9NRRLLhWcbRF-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-435" y="640" as="sourcePoint" />
+            <mxPoint x="-225" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-20" value="Feedback (speed, tension))" style="endArrow=classic;html=1;rounded=0;fontColor=#FF3333;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.412;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tPOuBQZp9NRRLLhWcbRF-12" target="tPOuBQZp9NRRLLhWcbRF-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-290" y="500" as="sourcePoint" />
+            <mxPoint x="-240" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-21" value="Emrg reset" style="endArrow=classic;html=1;rounded=0;fontColor=#FF3333;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.007;entryY=0.139;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tPOuBQZp9NRRLLhWcbRF-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="450" as="sourcePoint" />
+            <mxPoint x="-29.019999999999982" y="167.8800000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-22" value="general criterias&lt;br&gt;for driving any items" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontColor=#FF3333;exitX=1.007;exitY=0.221;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="tPOuBQZp9NRRLLhWcbRF-15" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-29.019999999999982" y="243.31999999999994" as="sourcePoint" />
+            <mxPoint x="180" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-23" value="Module: FLH&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="-530" y="600" width="160" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-24" value="&lt;font color=&quot;#000000&quot;&gt;Drive crane by valves&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF3333;" parent="1" vertex="1">
+          <mxGeometry x="-510" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-25" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#FF3333;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.021;exitY=0.62;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="tPOuBQZp9NRRLLhWcbRF-5" target="tPOuBQZp9NRRLLhWcbRF-24" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-310" y="660" as="sourcePoint" />
+            <mxPoint x="-260" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-26" value="Switch on crane is on Manuel&amp;nbsp;mode&lt;br&gt;general start criteria for anyitem&lt;br&gt;emrg.stop local or facility ok" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" parent="tPOuBQZp9NRRLLhWcbRF-25" vertex="1" connectable="0">
+          <mxGeometry x="-0.2108" relative="1" as="geometry">
+            <mxPoint x="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-27" value="&lt;font color=&quot;#ff3333&quot;&gt;Crane active&lt;br&gt;&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.523;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tPOuBQZp9NRRLLhWcbRF-24" target="tPOuBQZp9NRRLLhWcbRF-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="510" as="sourcePoint" />
+            <mxPoint x="440" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-28" value="&lt;font color=&quot;#000000&quot;&gt;Drive crane by radio&lt;br&gt;(valves still accessible)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF3333;" parent="1" vertex="1">
+          <mxGeometry x="-510" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-29" value="&lt;span style=&quot;color: rgb(255 , 51 , 51) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;Switch on crane is on Radio mode&lt;/span&gt;&lt;br style=&quot;color: rgb(255 , 51 , 51) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;general start criteria for anyitem&lt;/span&gt;&lt;br style=&quot;color: rgb(255 , 51 , 51) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;emrg.stop local or facility ok&lt;br&gt;&lt;/span&gt;Radio control drive signals" style="endArrow=classic;html=1;rounded=0;fontColor=#FF3333;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.029;exitY=0.743;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="tPOuBQZp9NRRLLhWcbRF-5" target="tPOuBQZp9NRRLLhWcbRF-28" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-200" y="750" as="sourcePoint" />
+            <mxPoint x="440" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-30" value="&lt;font color=&quot;#ff3333&quot;&gt;Crane active&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;Radio on canopen and&lt;/span&gt;&lt;font color=&quot;#ff3333&quot;&gt;&amp;nbsp;PDO&lt;br&gt;&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.653;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tPOuBQZp9NRRLLhWcbRF-28" target="tPOuBQZp9NRRLLhWcbRF-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="480" as="sourcePoint" />
+            <mxPoint x="440" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-31" value="&lt;font color=&quot;#000000&quot;&gt;Auto twist mode&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF3333;" parent="1" vertex="1">
+          <mxGeometry x="-510" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-32" value="Auto twist button on radio panel&lt;br&gt;Sensors ok for both FLH and NHC" style="endArrow=classic;html=1;rounded=0;fontColor=#FF3333;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tPOuBQZp9NRRLLhWcbRF-28" target="tPOuBQZp9NRRLLhWcbRF-31" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="570" as="sourcePoint" />
+            <mxPoint x="440" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-33" value="&lt;font color=&quot;#000000&quot;&gt;Auto twist mode for FLH:&lt;br&gt;FLH roller head twist and are aiming after NHC roller head. This happens when NHC or FLH roller heads change positions and not by orientations&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF3333;" parent="1" vertex="1">
+          <mxGeometry x="-530" y="930" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-34" value="&lt;font color=&quot;#ff3333&quot;&gt;Crane active&lt;br&gt;Auto twist mode / calculation drive&lt;br&gt;Radio on canopen and PDO&lt;br&gt;&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.816;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tPOuBQZp9NRRLLhWcbRF-31" target="tPOuBQZp9NRRLLhWcbRF-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-290" y="910" as="sourcePoint" />
+            <mxPoint x="-240" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-35" value="Module: NHC&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="190" y="600" width="160" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-36" value="&lt;font color=&quot;#000000&quot;&gt;Drive crane by valves&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF3333;" parent="1" vertex="1">
+          <mxGeometry x="204.01999999999998" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-37" value="&lt;font color=&quot;#ff3333&quot;&gt;Crane active&lt;br&gt;&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.993;entryY=0.526;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tPOuBQZp9NRRLLhWcbRF-36" target="tPOuBQZp9NRRLLhWcbRF-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="79.01999999999998" y="573.84" as="sourcePoint" />
+            <mxPoint x="40" y="602.0799999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-38" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#FF3333;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.014;exitY=0.617;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="tPOuBQZp9NRRLLhWcbRF-5" target="tPOuBQZp9NRRLLhWcbRF-36" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="51.960000000000036" y="680.28" as="sourcePoint" />
+            <mxPoint x="90" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-39" value="Switch on crane is on Manuel&amp;nbsp;mode&lt;br&gt;general start criteria for anyitem&lt;br&gt;emrg.stop local or facility ok" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" parent="tPOuBQZp9NRRLLhWcbRF-38" vertex="1" connectable="0">
+          <mxGeometry x="-0.2108" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-40" value="&lt;font color=&quot;#000000&quot;&gt;Drive crane by radio&lt;br&gt;(valves still accessible)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF3333;" parent="1" vertex="1">
+          <mxGeometry x="204.01999999999998" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-41" value="&lt;font color=&quot;#ff3333&quot;&gt;Crane active&lt;br&gt;Radio PDO&lt;br&gt;&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.652;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tPOuBQZp9NRRLLhWcbRF-40" target="tPOuBQZp9NRRLLhWcbRF-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="235" y="841.08" as="sourcePoint" />
+            <mxPoint y="790.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-42" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#FF3333;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.738;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="tPOuBQZp9NRRLLhWcbRF-5" target="tPOuBQZp9NRRLLhWcbRF-40" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="797.6399999999999" as="sourcePoint" />
+            <mxPoint x="242.05999999999995" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-43" value="Switch on crane is on Radio mode&lt;br&gt;general start criteria for anyitem&lt;br&gt;emrg.stop local or facility ok&lt;br&gt;Radio control drive signals" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" parent="tPOuBQZp9NRRLLhWcbRF-42" vertex="1" connectable="0">
+          <mxGeometry x="-0.2108" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-44" value="&lt;font color=&quot;#000000&quot;&gt;Auto twist mode&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF3333;" parent="1" vertex="1">
+          <mxGeometry x="204.01999999999998" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-45" value="&lt;font color=&quot;#ff3333&quot;&gt;Crane active&lt;br&gt;Auto twist mode / calculation drive&lt;br&gt;Radio on canopen and PDO&lt;br&gt;&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.804;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tPOuBQZp9NRRLLhWcbRF-44" target="tPOuBQZp9NRRLLhWcbRF-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30.980000000000018" y="924.28" as="sourcePoint" />
+            <mxPoint x="250" y="919.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-46" value="Auto twist button on radio panel&lt;br&gt;Sensors ok for NHC" style="endArrow=classic;html=1;rounded=0;fontColor=#FF3333;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tPOuBQZp9NRRLLhWcbRF-40" target="tPOuBQZp9NRRLLhWcbRF-44" edge="1">
+          <mxGeometry x="-0.2" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="780" as="sourcePoint" />
+            <mxPoint x="460" y="850" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-47" value="&lt;font color=&quot;#000000&quot;&gt;Auto twist mode for NHC:&lt;br&gt;NHC roller head twist and aiming for net pipe. This happens&amp;nbsp;when NHC roller head position is changed and not by orientation&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF3333;" parent="1" vertex="1">
+          <mxGeometry x="190" y="910" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-48" value="&lt;font color=&quot;#000000&quot;&gt;Auto tilt mode for NHC:&lt;br&gt;tilt for roller unit on crane will compansate when JIB and Boom angle is changed.&lt;br&gt;The tilt is to achieve vertical roller under nethandling.&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF3333;" parent="1" vertex="1">
+          <mxGeometry x="190" y="1000" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-49" value="&lt;font color=&quot;#ff3333&quot;&gt;Crane active&lt;br&gt;&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.007;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="205" y="427.43999999999994" as="sourcePoint" />
+            <mxPoint x="-29.019999999999982" y="370.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-50" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#FF3333;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-30" y="446.36" as="sourcePoint" />
+            <mxPoint x="205" y="442.43999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-51" value="Switch on crane is on Manuel&amp;nbsp;mode&lt;br&gt;general start criteria for anyitem&lt;br&gt;emrg.stop local or facility ok&lt;br&gt;Radio control drive signals" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" parent="tPOuBQZp9NRRLLhWcbRF-50" vertex="1" connectable="0">
+          <mxGeometry x="-0.2108" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-52" value="&lt;font color=&quot;#ff3333&quot;&gt;Crane active&lt;br&gt;Radio PDO&lt;br&gt;&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.007;entryY=0.304;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="205" y="531.36" as="sourcePoint" />
+            <mxPoint x="-29.019999999999982" y="496.0400000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-53" value="&lt;font color=&quot;#000000&quot;&gt;Drive crane by radio&lt;br&gt;(valves still accessible)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF3333;" parent="1" vertex="1">
+          <mxGeometry x="205" y="516.36" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-54" value="&lt;font color=&quot;#000000&quot;&gt;Drive crane by valves&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF3333;" parent="1" vertex="1">
+          <mxGeometry x="205" y="412.44" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-55" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#FF3333;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="tPOuBQZp9NRRLLhWcbRF-53" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="325" y="856" as="sourcePoint" />
+            <mxPoint x="430" y="546.36" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="856.36" />
+              <mxPoint x="430" y="546.36" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-56" value="Crane select TRC from radio panel" style="endArrow=classic;html=1;rounded=0;fontColor=#FF3333;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="tPOuBQZp9NRRLLhWcbRF-40" target="tPOuBQZp9NRRLLhWcbRF-53" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="769.64" as="sourcePoint" />
+            <mxPoint x="370" y="460.0000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="760" />
+              <mxPoint x="430" y="546" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-57" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#FF3333;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="tPOuBQZp9NRRLLhWcbRF-5" target="tPOuBQZp9NRRLLhWcbRF-53" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="565.84" as="sourcePoint" />
+            <mxPoint x="294.02" y="526.88" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-58" value="Switch on crane is on Radio mode&lt;br&gt;general start criteria for anyitem&lt;br&gt;emrg.stop local or facility ok&lt;br&gt;Radio control drive signals" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" parent="tPOuBQZp9NRRLLhWcbRF-57" vertex="1" connectable="0">
+          <mxGeometry x="-0.2108" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-59" value="&lt;font color=&quot;#000000&quot;&gt;sensors sensing check&lt;br&gt;(drive jib/boom = expect new angle values)&lt;br&gt;(drive swing and twist = expect new angle values)&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;sensors online&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;angle and encoders.&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;Items are within operation range&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FF3333;" parent="1" vertex="1">
+          <mxGeometry x="270" y="20" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-60" value="Sensor on crane body&lt;br&gt;&amp;nbsp;always gives positions" style="endArrow=classic;html=1;rounded=0;fontColor=#FF3333;exitX=1.013;exitY=0.936;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.014;entryY=0.861;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tPOuBQZp9NRRLLhWcbRF-23" target="tPOuBQZp9NRRLLhWcbRF-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-280" y="940" as="sourcePoint" />
+            <mxPoint x="-230" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-61" value="&lt;font color=&quot;#ff3333&quot;&gt;Sensor on crane body&lt;br&gt;always gives positions&lt;br&gt;&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;exitX=0;exitY=0.939;exitDx=0;exitDy=0;entryX=0.993;entryY=0.851;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="tPOuBQZp9NRRLLhWcbRF-35" target="tPOuBQZp9NRRLLhWcbRF-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="214.01999999999998" y="865" as="sourcePoint" />
+            <mxPoint x="-20" y="869.6800000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-62" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontColor=#FF3333;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="tPOuBQZp9NRRLLhWcbRF-5" target="tPOuBQZp9NRRLLhWcbRF-59" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="340" as="sourcePoint" />
+            <mxPoint x="240" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-65" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPOuBQZp9NRRLLhWcbRF-63" value="Sensors confirmations" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" parent="tPOuBQZp9NRRLLhWcbRF-62" vertex="1" connectable="0">
+          <mxGeometry x="-0.0759" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n_Epf15kypgvmBv_eyfg-1" value="utpakking av datapakker fra radio (PDO)(spakfunksjonen)" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="451.36" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n_Epf15kypgvmBv_eyfg-3" value="&lt;b&gt;skalering&lt;br&gt;&lt;/b&gt;&amp;nbsp;analog input signaler til 0.0 - 1.0" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="420" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n_Epf15kypgvmBv_eyfg-4" value="&lt;b&gt;PWM drive.&lt;/b&gt;&lt;br&gt;Skalering av input som skal tilsvare&lt;br&gt;et start pwm parameter&lt;br&gt;2s max pwm parameter" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2020" y="376.36" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n_Epf15kypgvmBv_eyfg-13" value="&lt;b&gt;funksjon selector&lt;/b&gt;&lt;br&gt;-128 &amp;lt;-&amp;gt; 0 = Z+&lt;br&gt;0 &amp;lt;-&amp;gt; 127 = Z-&lt;br&gt;setter også denne outputen til gjeldene selceted funksjon" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="440" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-3" value="&lt;b&gt;Opp/Ned ramping&lt;/b&gt;&lt;br&gt;Parameter for opp&lt;br&gt;Parameter for ned" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1830" y="381.36" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-7" value="&lt;b&gt;Virtuel simulator&lt;br&gt;OPC UA&lt;/b&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1940" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-8" value="utpakking av datapakker fra radio (PDO) (vippebryterne)" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2150" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-13" value="&lt;b&gt;skalering&lt;br&gt;&lt;/b&gt;&amp;nbsp;analog input signaler til 0.0 - 1.0" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="526.36" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-14" value="&lt;b&gt;PWM drive.&lt;br&gt;&lt;/b&gt;Skalering av input som skal tilsvare&lt;br&gt;et start pwm parameter&lt;br&gt;2s max pwm parameter" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2020" y="570" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-17" value="&lt;b&gt;Opp/Ned ramping&lt;/b&gt;&lt;br&gt;Parameter for opp&lt;br&gt;Parameter for ned" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1830" y="575" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-20" value="Z+" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-3" target="CfgRg5aXCrRDhNuQEp0G-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1720" y="780" as="sourcePoint" />
+            <mxPoint x="1770" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-21" value="Z-" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-17" target="CfgRg5aXCrRDhNuQEp0G-7" edge="1">
+          <mxGeometry x="0.0703" y="1" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1960" y="460" as="sourcePoint" />
+            <mxPoint x="1980" y="360" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-23" value="&lt;b&gt;DEADZONE&lt;/b&gt;&lt;br&gt;som regel har alle spakene som vil takes ibruk her ha dette internt innebygd" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1670" y="511.36" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-24" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="n_Epf15kypgvmBv_eyfg-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2220" y="446.36" as="sourcePoint" />
+            <mxPoint x="2270" y="411.36" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-25" value="pinout&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="CfgRg5aXCrRDhNuQEp0G-24" vertex="1" connectable="0">
+          <mxGeometry x="0.2" y="-6" relative="1" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-26" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2170" y="598.14" as="sourcePoint" />
+            <mxPoint x="2270" y="604.64" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-27" value="pinout&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="CfgRg5aXCrRDhNuQEp0G-26" vertex="1" connectable="0">
+          <mxGeometry x="0.2" y="-6" relative="1" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-29" value="pininn" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="CfgRg5aXCrRDhNuQEp0G-30" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1550" y="1000" as="sourcePoint" />
+            <mxPoint x="1630" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-30" value="&lt;b&gt;expofilter&lt;/b&gt;&lt;br&gt;støy reduksjon" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-32" value="&lt;h1&gt;Swing&lt;/h1&gt;&lt;span style=&quot;text-align: center&quot;&gt;spak kjøring fra radiostyring prinsipp&lt;br&gt;parameter tilgang/ setup&amp;nbsp;på hver FB&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1650" y="260" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-33" value="&lt;h1&gt;sensor boom&lt;/h1&gt;&lt;span style=&quot;text-align: center&quot;&gt;4-20mA input prinsipp&lt;br&gt;parameter tilgang/ setup&amp;nbsp;på hver FB&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1420" y="950" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-34" value="&lt;b&gt;skalering&lt;br&gt;&amp;nbsp;&lt;/b&gt;analog input signaler til 0.0 - 1.0" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1800" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-36" value="&lt;b&gt;Kalibrering&lt;/b&gt;&lt;br&gt;Upper/lower limit med referanse til horison planet, og mappet opp total range" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1960" y="870" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-37" value="signal" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-34" target="CfgRg5aXCrRDhNuQEp0G-36" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2000" y="920" as="sourcePoint" />
+            <mxPoint x="2050" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-38" value="&lt;b&gt;quality code/&lt;br&gt;Watch dog&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-39" value="Prio 1&lt;br&gt;fault input" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-30" target="CfgRg5aXCrRDhNuQEp0G-38" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2000" y="890" as="sourcePoint" />
+            <mxPoint x="2050" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-40" value="Prio 2&lt;br&gt;outside calibrated range" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-36" target="CfgRg5aXCrRDhNuQEp0G-38" edge="1">
+          <mxGeometry x="0.065" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1670" y="980" as="sourcePoint" />
+            <mxPoint x="1670" y="942.44" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-44" value="&lt;b&gt;Lengde beregning&lt;/b&gt;&lt;br&gt;Beregning for gjeldende kran/ ledd&lt;br&gt;(boom + jib)&amp;nbsp; lendge/vinkel&lt;br&gt;tilt roller optional and expected" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2130" y="1090" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-45" value="Program" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="830" y="55" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-46" value="Tilknytning" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-45" target="CfgRg5aXCrRDhNuQEp0G-47" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="95" as="sourcePoint" />
+            <mxPoint x="1030" y="95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-47" value="Funksjonsblokk" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1105" y="65" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-50" value="&lt;h1&gt;Tema&lt;/h1&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;prinsipp beskrivelser&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="670" y="40" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-51" value="&lt;h1&gt;Kalibrering setup/instruks for lengde måling&lt;/h1&gt;&lt;p&gt;kalibrering mode, = bypass på tidligere endpoints, vil ikke gå ut av denne moden før alle nødvendige punkt er kalibrert.&lt;br&gt;signalet blir sendt videre for å kunne bruket til distanse målinger osv, eks: heavylift/autotwist.&lt;br&gt;Her blir signalet referert til total&amp;nbsp; angle operation range,&amp;nbsp;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="670" width="560" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-52" value="&lt;b&gt;Virtuel simulator&lt;br&gt;OPC UA&lt;/b&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1470" y="1050" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-53" value="drive&lt;br&gt;signal" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-52" target="CfgRg5aXCrRDhNuQEp0G-30" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1950" y="1060" as="sourcePoint" />
+            <mxPoint x="1790" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-61" value="&lt;b&gt;crane body&lt;/b&gt; parameters, runed once by setup" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2165" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-63" value="signal value program will use for &lt;br&gt;calculation / drive in modes&amp;nbsp;" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.047;entryY=0.308;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-34" target="CfgRg5aXCrRDhNuQEp0G-44" edge="1">
+          <mxGeometry x="-0.0326" y="5" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2360" y="1110" as="sourcePoint" />
+            <mxPoint x="2160" y="1030" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-64" value="parameter" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-61" target="CfgRg5aXCrRDhNuQEp0G-44" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2340" y="970" as="sourcePoint" />
+            <mxPoint x="2390" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-89" value="&lt;h1&gt;Kalibrering setup/instruks for orientasjon&lt;/h1&gt;&lt;p&gt;kalibrering mode, = bypass på tidligere endpoints, vil ikke gå ut av denne moden før alle nødvendige punkt er kalibrert.&lt;br&gt;signalet blir sendt videre for å kunne vite orientasjon på leddene.&lt;br&gt;Her blir signalet referert til total angle operation range, with reference position(parked crane and facing forward the boat).&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="1540" width="670" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-90" value="&lt;h1&gt;Basic kran kjøring fra radiostyringen&lt;/h1&gt;&lt;p&gt;pakker ut datapakkene som blir sendt fra radiostyringen på canbus. Disse PDO&#39;ene er pre mappet.&lt;/p&gt;&lt;p&gt;i 1 byte inneholder informasjon for å kjøre en funksjon begge retningene, disse må skilles og dermed håndtere denne input signalet som skal tilsvare proposjonal PWM styring på outputen&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="130" width="560" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-91" value="utpakking av absolute multiturn encoder (PDO)" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="1725" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-92" value="data" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-91" target="CfgRg5aXCrRDhNuQEp0G-141" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1285" y="1785" as="sourcePoint" />
+            <mxPoint x="1245" y="1770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-93" value="&lt;b&gt;Kalibrering&lt;br&gt;&amp;nbsp; E&lt;/b&gt;ndpoints&lt;br&gt;for CW/CCW. &lt;br&gt;Har et referansepunkt.&lt;br&gt;Også ønsket total turn count" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="1660" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-142" value="parameter" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-94" target="CfgRg5aXCrRDhNuQEp0G-141" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-94" value="&lt;b&gt;ledd utveksning&lt;/b&gt;,&lt;br&gt;runed once by setup" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="1680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-95" value="&lt;h1&gt;sensor swing&lt;/h1&gt;&lt;p&gt;encoder på swing, sender PDO som er mappet og må utpakkes,&amp;nbsp;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="1620" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-97" value="&lt;b&gt;DEADZONE&lt;/b&gt;&lt;br&gt;som regel har alle spakene som vil takes ibruk her ha dette internt innebygd" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1670" y="405" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-104" value="Parameters" style="endArrow=classic;html=1;rounded=0;entryX=0.292;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-36" target="CfgRg5aXCrRDhNuQEp0G-44" edge="1">
+          <mxGeometry x="-0.1605" y="8" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1680" y="1240" as="sourcePoint" />
+            <mxPoint x="1730" y="1190" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-107" value="&lt;b&gt;HMI program/&lt;br&gt;operating screen&amp;nbsp;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="845" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-108" value="alarm" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.017;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-38" target="CfgRg5aXCrRDhNuQEp0G-107" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1680" y="1230" as="sourcePoint" />
+            <mxPoint x="1730" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-111" value="pininn" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="CfgRg5aXCrRDhNuQEp0G-112" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1550" y="1315" as="sourcePoint" />
+            <mxPoint x="1630" y="1315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-112" value="&lt;b&gt;expofilter&lt;/b&gt;&lt;br&gt;støy reduksjon" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="1285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-113" value="&lt;h1&gt;sensor Jib&lt;/h1&gt;&lt;span style=&quot;text-align: center&quot;&gt;4-20mA input prinsipp&lt;br&gt;parameter tilgang/ setup&amp;nbsp;på hver FB&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1420" y="1265" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-114" value="&lt;b&gt;skalering&lt;br&gt;&amp;nbsp;&lt;/b&gt;analog input signaler til 0.0 - 1.0" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1800" y="1285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-116" value="&lt;b&gt;Kalibrering&lt;/b&gt;&lt;br&gt;Upper/lower limit med referanse til horison planet, og mappet opp total range" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1950" y="1390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-117" value="signal" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.008;entryY=0.138;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-114" target="CfgRg5aXCrRDhNuQEp0G-116" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2000" y="1235" as="sourcePoint" />
+            <mxPoint x="2050" y="1185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-118" value="&lt;b&gt;quality code/&lt;br&gt;Watch dog&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="1400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-119" value="Prio 1&lt;br&gt;fault input" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-112" target="CfgRg5aXCrRDhNuQEp0G-118" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2000" y="1205" as="sourcePoint" />
+            <mxPoint x="2050" y="1155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-120" value="Prio 2&lt;br&gt;outside calibrated range" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-116" target="CfgRg5aXCrRDhNuQEp0G-118" edge="1">
+          <mxGeometry x="0.065" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1670" y="1295" as="sourcePoint" />
+            <mxPoint x="1670" y="1257.44" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-122" value="&lt;b&gt;Virtuel simulator&lt;br&gt;OPC UA&lt;/b&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1470" y="1170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-123" value="drive&lt;br&gt;signal" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-122" target="CfgRg5aXCrRDhNuQEp0G-112" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1950" y="1375" as="sourcePoint" />
+            <mxPoint x="1790" y="1405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-125" value="signal value program will use for &lt;br&gt;calculation / drive in modes&amp;nbsp;" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-114" edge="1">
+          <mxGeometry x="-0.0326" y="5" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2360" y="1425" as="sourcePoint" />
+            <mxPoint x="2140" y="1180" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-128" value="Parameters" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.125;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-116" target="CfgRg5aXCrRDhNuQEp0G-44" edge="1">
+          <mxGeometry x="-0.1605" y="8" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1680" y="1555" as="sourcePoint" />
+            <mxPoint x="2225.04" y="1358.04" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-129" value="&lt;b&gt;HMI program/&lt;br&gt;operating screen&amp;nbsp;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="1380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-130" value="alarm" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.017;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-118" target="CfgRg5aXCrRDhNuQEp0G-129" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1680" y="1545" as="sourcePoint" />
+            <mxPoint x="1730" y="1495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-132" value="setup/hmi call" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" target="CfgRg5aXCrRDhNuQEp0G-36" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2190" y="890" as="sourcePoint" />
+            <mxPoint x="2200" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-133" value="setup/hmi call" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" target="CfgRg5aXCrRDhNuQEp0G-116" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2170" y="1450" as="sourcePoint" />
+            <mxPoint x="2150" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-134" value="&lt;b&gt;HMI reading value pages&lt;/b&gt;&lt;br&gt;tilgang til vinkel og range verdiene samt totale lengen, visuelt for vinsj" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2210" y="845" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-136" value="div verdier" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-44" target="CfgRg5aXCrRDhNuQEp0G-134" edge="1">
+          <mxGeometry x="-0.5095" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2425" y="1190" as="sourcePoint" />
+            <mxPoint x="2475" y="1140" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-138" value="SCRAP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="60" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-139" value="&lt;b&gt;Virtuel simulator&lt;br&gt;OPC UA&lt;/b&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="1825" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-140" value="setup/hmi call" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="CfgRg5aXCrRDhNuQEp0G-93" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1680" y="1710" as="sourcePoint" />
+            <mxPoint x="1580" y="1700" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-141" value="&lt;b&gt;Reference&lt;br&gt;&amp;nbsp;&lt;/b&gt;analog input verdier som beregning tilsvarende grader:&lt;br&gt;X = 1grad" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1290" y="1770" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-143" value="drive&lt;br&gt;signal" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-139" target="CfgRg5aXCrRDhNuQEp0G-141" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1270" y="1885" as="sourcePoint" />
+            <mxPoint x="1245" y="1770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-144" value="&lt;b&gt;Orientasjon beregning&lt;/b&gt;&lt;br&gt;vinkel beregninger i forhold til referansen/parkert stilling og antall omdreining teller" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="1780" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-145" value="Parameters" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-93" target="CfgRg5aXCrRDhNuQEp0G-144" edge="1">
+          <mxGeometry x="-0.1605" y="8" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1730" y="1390" as="sourcePoint" />
+            <mxPoint x="1817.8248557872785" y="1232.4264068711927" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-147" value="signal value program will use for &lt;br&gt;calculation / drive in modes&amp;nbsp;" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-141" target="CfgRg5aXCrRDhNuQEp0G-144" edge="1">
+          <mxGeometry x="-0.0326" y="5" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1580" y="1315" as="sourcePoint" />
+            <mxPoint x="1790" y="1190" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-148" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-30" target="CfgRg5aXCrRDhNuQEp0G-34" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1680" y="1360" as="sourcePoint" />
+            <mxPoint x="1730" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-149" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-112" target="CfgRg5aXCrRDhNuQEp0G-114" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1680" y="1360" as="sourcePoint" />
+            <mxPoint x="1730" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-150" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n_Epf15kypgvmBv_eyfg-1" target="n_Epf15kypgvmBv_eyfg-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1330" y="750" as="sourcePoint" />
+            <mxPoint x="1380" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-151" value="Z+" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n_Epf15kypgvmBv_eyfg-13" target="n_Epf15kypgvmBv_eyfg-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1330" y="750" as="sourcePoint" />
+            <mxPoint x="1380" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-152" value="Z-" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="n_Epf15kypgvmBv_eyfg-13" target="CfgRg5aXCrRDhNuQEp0G-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1410" y="490" as="sourcePoint" />
+            <mxPoint x="1390" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-153" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n_Epf15kypgvmBv_eyfg-3" target="CfgRg5aXCrRDhNuQEp0G-97" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1350" y="770" as="sourcePoint" />
+            <mxPoint x="1400" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-154" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-13" target="CfgRg5aXCrRDhNuQEp0G-23" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1360" y="780" as="sourcePoint" />
+            <mxPoint x="1410" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-155" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-23" target="CfgRg5aXCrRDhNuQEp0G-17" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1370" y="790" as="sourcePoint" />
+            <mxPoint x="1420" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-156" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-97" target="CfgRg5aXCrRDhNuQEp0G-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1380" y="800" as="sourcePoint" />
+            <mxPoint x="1430" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-157" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-17" target="CfgRg5aXCrRDhNuQEp0G-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1390" y="858.64" as="sourcePoint" />
+            <mxPoint x="1440" y="808.64" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-158" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-3" target="n_Epf15kypgvmBv_eyfg-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1400" y="781.36" as="sourcePoint" />
+            <mxPoint x="1450" y="731.36" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-159" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="933.4264068711927" y="123.28427124746236" as="sourcePoint" />
+            <mxPoint x="1106" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-160" value="main run signal" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="CfgRg5aXCrRDhNuQEp0G-159" vertex="1" connectable="0">
+          <mxGeometry x="-0.3373" y="-1" relative="1" as="geometry">
+            <mxPoint x="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-161" value="utpakking av absolute multiturn encoder (PDO)" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="2055" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-162" value="data" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-161" target="CfgRg5aXCrRDhNuQEp0G-169" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1285" y="2115" as="sourcePoint" />
+            <mxPoint x="1245" y="2100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-163" value="&lt;b&gt;Kalibrering&lt;br&gt;&amp;nbsp; E&lt;/b&gt;ndpoints&lt;br&gt;for CW/CCW. &lt;br&gt;Har et referansepunkt.&lt;br&gt;Også ønsket total turn count" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="2190" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-179" value="parameter" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-165" target="CfgRg5aXCrRDhNuQEp0G-169" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-165" value="&lt;b&gt;ledd utveksning&lt;/b&gt;,&lt;br&gt;runed once by setup" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="2240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-166" value="&lt;h1&gt;sensor twist&lt;/h1&gt;&lt;p&gt;encoder på swing, sender PDO som er mappet og må utpakkes,&amp;nbsp;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="1950" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-167" value="&lt;b&gt;Virtuel simulator&lt;br&gt;OPC UA&lt;/b&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="2155" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-168" value="setup/hmi call" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="CfgRg5aXCrRDhNuQEp0G-163" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1680" y="2240" as="sourcePoint" />
+            <mxPoint x="1580" y="2030" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-169" value="&lt;b&gt;Reference&lt;br&gt;&amp;nbsp;&lt;/b&gt;analog input verdier som beregning tilsvarende grader:&lt;br&gt;X = 1grad" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1290" y="2120" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-170" value="drive&lt;br&gt;signal" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-167" target="CfgRg5aXCrRDhNuQEp0G-169" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1270" y="2215" as="sourcePoint" />
+            <mxPoint x="1245" y="2100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-171" value="&lt;b&gt;Orientasjon beregning&lt;/b&gt;&lt;br&gt;vinkel beregninger i forhold til referansen/parkert stilling og antall omdreining teller" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="2110" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-172" value="Parameters" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-163" target="CfgRg5aXCrRDhNuQEp0G-171" edge="1">
+          <mxGeometry x="-0.1605" y="8" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1730" y="1720" as="sourcePoint" />
+            <mxPoint x="1817.8248557872785" y="1562.4264068711927" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-173" value="signal value program will use for &lt;br&gt;calculation / drive in modes&amp;nbsp;" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-169" target="CfgRg5aXCrRDhNuQEp0G-171" edge="1">
+          <mxGeometry x="-0.0326" y="5" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1580" y="1645" as="sourcePoint" />
+            <mxPoint x="1790" y="1520" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-174" value="sig" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-169" target="CfgRg5aXCrRDhNuQEp0G-163" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1430" y="2145" as="sourcePoint" />
+            <mxPoint x="1380" y="1980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-175" value="sig" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-141" target="CfgRg5aXCrRDhNuQEp0G-93" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1440" y="2175" as="sourcePoint" />
+            <mxPoint x="1490" y="2100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-183" value="&lt;h1&gt;sensor tilt roller&lt;/h1&gt;&lt;span style=&quot;text-align: center&quot;&gt;4-20mA input prinsipp&lt;br&gt;parameter tilgang/ setup&amp;nbsp;på hver FB&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="840" y="1090" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-184" value="pininn" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="CfgRg5aXCrRDhNuQEp0G-185" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="1155" as="sourcePoint" />
+            <mxPoint x="1100" y="1155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-185" value="&lt;b&gt;expofilter&lt;/b&gt;&lt;br&gt;støy reduksjon" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="1125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-187" value="&lt;b&gt;skalering&lt;br&gt;&amp;nbsp;&lt;/b&gt;analog input signaler til 0.0 - 1.0" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1270" y="1125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-188" value="signal" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-187" target="CfgRg5aXCrRDhNuQEp0G-197" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1470" y="1075" as="sourcePoint" />
+            <mxPoint x="1430" y="1065" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-189" value="&lt;b&gt;quality code/&lt;br&gt;Watch dog&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="1015" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-190" value="Prio 1&lt;br&gt;fault input" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-185" target="CfgRg5aXCrRDhNuQEp0G-189" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1470" y="1045" as="sourcePoint" />
+            <mxPoint x="1520" y="995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-191" value="Prio 2&lt;br&gt;outside calibrated range" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-197" target="CfgRg5aXCrRDhNuQEp0G-189" edge="1">
+          <mxGeometry x="0.065" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1330" y="1015" as="sourcePoint" />
+            <mxPoint x="1140" y="1097.44" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-192" value="&lt;b&gt;Virtuel simulator&lt;br&gt;OPC UA&lt;/b&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="1205" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-193" value="drive&lt;br&gt;signal" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-192" target="CfgRg5aXCrRDhNuQEp0G-185" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1420" y="1215" as="sourcePoint" />
+            <mxPoint x="1260" y="1245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-194" value="&lt;b&gt;HMI program/&lt;br&gt;operating screen&amp;nbsp;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="930" y="1000" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-195" value="alarm" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.017;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-189" target="CfgRg5aXCrRDhNuQEp0G-194" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1150" y="1385" as="sourcePoint" />
+            <mxPoint x="1200" y="1335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-196" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-185" target="CfgRg5aXCrRDhNuQEp0G-187" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1150" y="1515" as="sourcePoint" />
+            <mxPoint x="1200" y="1465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-197" value="&lt;b&gt;Kalibrering&lt;/b&gt;&lt;br&gt;Upper/lower limit med referanse til horison planet, og mappet opp total range" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="885" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-199" value="setup/hmi call" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="CfgRg5aXCrRDhNuQEp0G-197" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="925" as="sourcePoint" />
+            <mxPoint x="1080" y="929.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-201" value="signal value program will use for &lt;br&gt;calculation / drive in modes&amp;nbsp;" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=-0.005;entryY=0.558;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-187" target="CfgRg5aXCrRDhNuQEp0G-44" edge="1">
+          <mxGeometry x="-0.0326" y="5" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1372.43" y="1195" as="sourcePoint" />
+            <mxPoint x="1410.0035931288073" y="1083.2842712474617" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-204" value="Boom/Jib and roller tilt angle" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endWidth=17.647058823529413;endSize=5.152941176470589;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-44" target="CfgRg5aXCrRDhNuQEp0G-230" edge="1">
+          <mxGeometry x="0.026" y="5" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1660" y="1200" as="sourcePoint" />
+            <mxPoint x="2659.999999999961" y="1150" as="targetPoint" />
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-206" value="&lt;b&gt;PWM drive.&lt;/b&gt;&lt;br&gt;Skalering av input som skal tilsvare&lt;br&gt;et start pwm parameter&lt;br&gt;2s max pwm parameter" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3140" y="1242.5" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-207" value="&lt;b&gt;Opp/Ned ramping&lt;/b&gt;&lt;br&gt;Parameter for opp&lt;br&gt;Parameter for ned" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2950" y="1247.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-208" value="&lt;b&gt;Virtuel simulator&lt;br&gt;OPC UA&lt;/b&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3050" y="1332.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-209" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-208" target="CfgRg5aXCrRDhNuQEp0G-208" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3110" y="1237.5" as="sourcePoint" />
+            <mxPoint x="2890" y="1557.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-210" value="&lt;b&gt;PWM drive.&lt;br&gt;&lt;/b&gt;Skalering av input som skal tilsvare&lt;br&gt;et start pwm parameter&lt;br&gt;2s max pwm parameter" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3140" y="1437.5000000000002" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-211" value="&lt;b&gt;Opp/Ned ramping&lt;/b&gt;&lt;br&gt;Parameter for opp&lt;br&gt;Parameter for ned" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2950" y="1442.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-213" value="Z+" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-207" target="CfgRg5aXCrRDhNuQEp0G-208" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2840" y="1607.5" as="sourcePoint" />
+            <mxPoint x="3080" y="1322.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-214" value="Z-" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-211" target="CfgRg5aXCrRDhNuQEp0G-208" edge="1">
+          <mxGeometry x="-0.027" y="5" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3080" y="1317.5" as="sourcePoint" />
+            <mxPoint x="3100" y="1217.5" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-215" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-206" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3340" y="1312.5" as="sourcePoint" />
+            <mxPoint x="3320" y="1277.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-216" value="pinout&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="CfgRg5aXCrRDhNuQEp0G-215" vertex="1" connectable="0">
+          <mxGeometry x="0.2" y="-6" relative="1" as="geometry">
+            <mxPoint x="-11" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-217" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-210" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3280" y="1465.64" as="sourcePoint" />
+            <mxPoint x="3320" y="1472.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-218" value="pinout&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="CfgRg5aXCrRDhNuQEp0G-217" vertex="1" connectable="0">
+          <mxGeometry x="0.2" y="-6" relative="1" as="geometry">
+            <mxPoint x="-11" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-219" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-211" target="CfgRg5aXCrRDhNuQEp0G-210" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2500" y="1726.14" as="sourcePoint" />
+            <mxPoint x="2550" y="1676.14" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-220" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-207" target="CfgRg5aXCrRDhNuQEp0G-206" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2520" y="1647.5" as="sourcePoint" />
+            <mxPoint x="2570" y="1597.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-221" value="&lt;h1&gt;Auto Roller Tilt&lt;/h1&gt;&lt;div&gt;summerer boom/jib og roller tilt vinkel, og beregner til ønske roller tilt vinkel som skal være loddrett&lt;/div&gt;&lt;div&gt;PID regulering og der igjen er form for drive signal til roller tilt inntil ønsket verdi/posisjon&lt;/div&gt;&lt;div&gt;div kvalitetssjekk må kontrolleres&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2760" y="1100" width="584" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-222" value="&lt;b&gt;DEADZONE&lt;/b&gt;&lt;br&gt;en hvis minimum vinkel verdi for å slippe div småkjøringer" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2610" y="1427.5" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-223" value="&lt;b&gt;Selector&lt;/b&gt;&lt;br&gt;retning må vi regulere på" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2400" y="1352.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-224" value="&lt;b&gt;PID REGULATOR&lt;/b&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2800" y="1442.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-225" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-230" target="CfgRg5aXCrRDhNuQEp0G-223" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2805.00000000004" y="1150" as="sourcePoint" />
+            <mxPoint x="2460" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-230" value="&lt;b&gt;Roller tilt beregninger&lt;/b&gt;&lt;br&gt;summerer vinklene og beregner avviket mellom roller vinkel til loddrett." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2370" y="1232.5" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-232" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-222" target="CfgRg5aXCrRDhNuQEp0G-224" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2950" y="1160" as="sourcePoint" />
+            <mxPoint x="3030" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-233" value="snail/hare" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-8" target="CfgRg5aXCrRDhNuQEp0G-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2410" y="850" as="sourcePoint" />
+            <mxPoint x="2460" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-234" value="snail/hare" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-8" target="CfgRg5aXCrRDhNuQEp0G-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2160.0000000000346" y="510" as="sourcePoint" />
+            <mxPoint x="2070" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-235" value="snail/hare" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-8" target="n_Epf15kypgvmBv_eyfg-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2170.0000000000346" y="520" as="sourcePoint" />
+            <mxPoint x="2080" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-236" value="utpakking av datapakker fra radio (PDO) (vippebryterne)" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3240" y="1332.4999999999998" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-237" value="snail/hare" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-236" target="CfgRg5aXCrRDhNuQEp0G-208" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3550" y="1726.1399999999999" as="sourcePoint" />
+            <mxPoint x="3200" y="1376.1399999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-238" value="snail/hare" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-236" target="CfgRg5aXCrRDhNuQEp0G-210" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3300.0000000000346" y="1386.1399999999999" as="sourcePoint" />
+            <mxPoint x="3265" y="1446.1399999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-239" value="snail/hare" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-236" target="CfgRg5aXCrRDhNuQEp0G-206" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3310.0000000000346" y="1396.1399999999999" as="sourcePoint" />
+            <mxPoint x="3257.5" y="1322.5000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-241" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-224" target="CfgRg5aXCrRDhNuQEp0G-211" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2680" y="1295" as="sourcePoint" />
+            <mxPoint x="2680" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-242" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-244" target="CfgRg5aXCrRDhNuQEp0G-207" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2690" y="1305" as="sourcePoint" />
+            <mxPoint x="2690" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-243" value="&lt;b&gt;DEADZONE&lt;/b&gt;&lt;br&gt;en hvis minimum vinkel verdi for å slippe div småkjøringer" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2610" y="1232.5" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-244" value="&lt;b&gt;PID REGULATOR&lt;/b&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2800" y="1247.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-245" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-243" target="CfgRg5aXCrRDhNuQEp0G-244" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2940" y="1032.5" as="sourcePoint" />
+            <mxPoint x="3020" y="1032.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-249" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-223" target="CfgRg5aXCrRDhNuQEp0G-222" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2670" y="1190" as="sourcePoint" />
+            <mxPoint x="2490" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-250" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-223" target="CfgRg5aXCrRDhNuQEp0G-243" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2680" y="1200" as="sourcePoint" />
+            <mxPoint x="2500" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-251" value="&lt;b&gt;quality code/&lt;br&gt;Watch dog&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2240" y="1352.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-252" value="&lt;b&gt;HMI program/&lt;br&gt;operating screen&amp;nbsp;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2240" y="1460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-253" value="alarm" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-251" target="CfgRg5aXCrRDhNuQEp0G-252" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2440" y="1845" as="sourcePoint" />
+            <mxPoint x="2490" y="1795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-254" value="pro 3&lt;br&gt;outside drive range" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-230" target="CfgRg5aXCrRDhNuQEp0G-251" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2250" y="1560" as="sourcePoint" />
+            <mxPoint x="2300" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-255" value="utpakking av datapakker fra radio (PDO) (vippebryterne)" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2420" y="1030" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-256" value="Auto Roller tilt" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-255" target="CfgRg5aXCrRDhNuQEp0G-230" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2250" y="730" as="sourcePoint" />
+            <mxPoint x="2300" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-259" value="&lt;h1&gt;Heavy lift&lt;/h1&gt;&lt;p&gt;Heavy lift mode har flere spec, eks, vanlig lengde begrensning, m/u vinsj trykk/flow bypass, deselect av 2. vinsj osv, dette må på sikt fåes en oversikt over, men vi forholder oss til lengde begrensning.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2600" y="480" width="560" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-260" value="Boom/Jib angle" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.961;exitY=0.23;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-44" target="CfgRg5aXCrRDhNuQEp0G-263" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2480" y="1030" as="sourcePoint" />
+            <mxPoint x="2470" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-263" value="&lt;b&gt;Lengde begrensninger&lt;/b&gt;&lt;br&gt;maximum and minimum heavy lift length range operation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2470" y="700" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-264" value="Heavy lift" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="CfgRg5aXCrRDhNuQEp0G-255" target="CfgRg5aXCrRDhNuQEp0G-263" edge="1">
+          <mxGeometry x="-0.0292" y="-6" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2490" y="1120" as="sourcePoint" />
+            <mxPoint x="2470" y="1242.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
