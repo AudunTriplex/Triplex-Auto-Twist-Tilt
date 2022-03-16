@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-15T15:16:28.204Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="FJKHbPJGeuJvT4Qv_6tS" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-16T08:35:28.677Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="W25dAXrbtDgh_0DNy84B" version="16.6.2" type="github">
   <diagram id="i3dqL916s062MHXm5JMA" name="Page-1">
     <mxGraphModel dx="3152" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -391,8 +391,8 @@
         <mxCell id="CfgRg5aXCrRDhNuQEp0G-30" value="&lt;b&gt;expofilter&lt;/b&gt;&lt;br&gt;støy reduksjon" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1630" y="970" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CfgRg5aXCrRDhNuQEp0G-32" value="&lt;h1&gt;Swing&lt;/h1&gt;&lt;span style=&quot;text-align: center&quot;&gt;spak kjøring fra radiostyring prinsipp&lt;br&gt;parameter tilgang/ setup&amp;nbsp;på hver FB&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-310" y="1550" width="160" height="110" as="geometry" />
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-32" value="&lt;h1&gt;Swing&lt;/h1&gt;&lt;span style=&quot;text-align: center&quot;&gt;spak kjøring fra radiostyring prinsipp&lt;br&gt;parameter tilgang/ setup&amp;nbsp;på hver FB&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-310" y="1550" width="230" height="110" as="geometry" />
         </mxCell>
         <mxCell id="CfgRg5aXCrRDhNuQEp0G-33" value="&lt;h1&gt;sensor boom&lt;/h1&gt;&lt;span style=&quot;text-align: center&quot;&gt;4-20mA input prinsipp&lt;br&gt;parameter tilgang/ setup&amp;nbsp;på hver FB&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1420" y="950" width="160" height="100" as="geometry" />
@@ -474,8 +474,8 @@
         <mxCell id="CfgRg5aXCrRDhNuQEp0G-89" value="&lt;h1&gt;Kalibrering setup/instruks for orientasjon&lt;/h1&gt;&lt;p&gt;kalibrering mode, = bypass på tidligere endpoints, vil ikke gå ut av denne moden før alle nødvendige punkt er kalibrert.&lt;br&gt;signalet blir sendt videre for å kunne vite orientasjon på leddene.&lt;br&gt;Her blir signalet referert til total angle operation range, with reference position(parked crane and facing forward the boat).&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1280" y="1540" width="670" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="CfgRg5aXCrRDhNuQEp0G-90" value="&lt;h1&gt;Basic kran kjøring fra radiostyringen&lt;/h1&gt;&lt;p&gt;pakker ut datapakkene som blir sendt fra radiostyringen på canbus. Disse PDO&#39;ene er pre mappet.&lt;/p&gt;&lt;p&gt;i 1 byte inneholder informasjon for å kjøre en funksjon begge retningene, disse må skilles og dermed håndtere denne input signalet skal tilsvare proposjonal PWM styring på outputen&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-410" y="1400" width="560" height="120" as="geometry" />
+        <mxCell id="CfgRg5aXCrRDhNuQEp0G-90" value="&lt;h1&gt;Basic kran kjøring fra radiostyringen&lt;/h1&gt;&lt;p&gt;pakker ut datapakkene som blir sendt fra radiostyringen på canbus. Disse PDO&#39;ene er pre mappet.&lt;/p&gt;&lt;p&gt;i 1 byte inneholder informasjon for å kjøre en funksjon begge retningene, disse må skilles og dermed håndtere denne input signalet skal tilsvare proposjonal PWM styring på outputen&lt;/p&gt;&lt;p&gt;dette forslaget er prinsippet bak alle funksjonene&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-410" y="1400" width="560" height="140" as="geometry" />
         </mxCell>
         <mxCell id="CfgRg5aXCrRDhNuQEp0G-91" value="utpakking av absolute multiturn encoder (PDO)" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1080" y="1725" width="120" height="90" as="geometry" />
@@ -1196,6 +1196,156 @@
         </mxCell>
         <mxCell id="4Zit7KkpfHQfQK_u-nDv-31" value="&lt;font style=&quot;font-size: 12px&quot;&gt;vi tar dette gjit&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=36;" vertex="1" parent="1">
           <mxGeometry x="55" y="240" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-33" value="&lt;b&gt;Unpack PDO&lt;/b&gt;&lt;br&gt;data from radio&lt;br&gt;levers&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="2171.36" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-34" value="&lt;b&gt;Scaling&lt;br&gt;&lt;/b&gt;&amp;nbsp;analog input signals to 0.0 - 1.0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="2180" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-81" value="drive value for Z+ or Z-&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="4Zit7KkpfHQfQK_u-nDv-35" target="4Zit7KkpfHQfQK_u-nDv-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-35" value="&lt;b&gt;PWM Drive.&lt;/b&gt;&lt;br&gt;1 start range and 2 max range depending on snail/hare" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="2175" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="4Zit7KkpfHQfQK_u-nDv-36" target="4Zit7KkpfHQfQK_u-nDv-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-582" y="2150" />
+              <mxPoint x="-20" y="2150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-79" value="Z+ or Z-&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="4Zit7KkpfHQfQK_u-nDv-78">
+          <mxGeometry x="0.133" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-36" value="&lt;b&gt;function selector&lt;/b&gt;&lt;br&gt;-128 &amp;lt;-&amp;gt; 0 = Z+&lt;br&gt;0 &amp;lt;-&amp;gt; 127 = Z-&lt;br&gt;Select function direction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="2160" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-37" value="&lt;b&gt;Ramping&lt;/b&gt;&lt;br&gt;up/down" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="2190" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-77" value="Snail/hare" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="4Zit7KkpfHQfQK_u-nDv-39" target="4Zit7KkpfHQfQK_u-nDv-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-39" value="&lt;b&gt;Unpack PDO&lt;/b&gt;&lt;br&gt;data from radio&lt;br&gt;buttons/switch" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="2086.36" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-46" value="Z+ pinout" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="4Zit7KkpfHQfQK_u-nDv-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="2166.36" as="sourcePoint" />
+            <mxPoint x="280" y="2194" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-50" value="&lt;h1&gt;Swing&lt;/h1&gt;&lt;span style=&quot;text-align: center&quot;&gt;lever drive from radio controller principle, Parameter access / setup on FB&#39;s is defined below&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="1990" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-51" value="&lt;b&gt;Deadzone&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="2193.41" width="100" height="33.18" as="geometry" />
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-52" value="data" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Zit7KkpfHQfQK_u-nDv-33" target="4Zit7KkpfHQfQK_u-nDv-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-630" y="2470" as="sourcePoint" />
+            <mxPoint x="-580" y="2420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-53" value="Z+ or Z-" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Zit7KkpfHQfQK_u-nDv-36" target="4Zit7KkpfHQfQK_u-nDv-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-630" y="2470" as="sourcePoint" />
+            <mxPoint x="-580" y="2420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-55" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Zit7KkpfHQfQK_u-nDv-34" target="4Zit7KkpfHQfQK_u-nDv-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-610" y="2490" as="sourcePoint" />
+            <mxPoint x="-560" y="2440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-58" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Zit7KkpfHQfQK_u-nDv-51" target="4Zit7KkpfHQfQK_u-nDv-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-580" y="2520" as="sourcePoint" />
+            <mxPoint x="-530" y="2470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-60" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Zit7KkpfHQfQK_u-nDv-37" target="4Zit7KkpfHQfQK_u-nDv-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-560" y="2501.36" as="sourcePoint" />
+            <mxPoint x="-510" y="2451.36" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-73" value="user drive req(sig value) for Z+ or Z-&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="4Zit7KkpfHQfQK_u-nDv-64" target="4Zit7KkpfHQfQK_u-nDv-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-64" value="&lt;b&gt;Virtuel simulator&lt;br&gt;OPC UA&lt;/b&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="2251.36" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-67" value="&lt;font style=&quot;font-size: 48px&quot;&gt;Forslag1&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="1585" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-68" value="&lt;font style=&quot;font-size: 48px&quot;&gt;Forslag2&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="2020" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-74" value="Z- pinout" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="4Zit7KkpfHQfQK_u-nDv-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="2240" as="sourcePoint" />
+            <mxPoint x="280" y="2230" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-87" value="Long Real &amp;lt;3" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="1087.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-88" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="1150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-90" value="&lt;h1&gt;Scaling&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Inputs:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;X&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; Unscaled input on long real, no error check possible&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;XF&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; Quality code from input module or calculation, on boolean&amp;nbsp;&lt;/p&gt;&lt;p&gt;XFP : Function in Positive range, on boolean&lt;/p&gt;&lt;p&gt;XFN : Function in Negative range, on boolean&lt;/p&gt;&lt;p&gt;&lt;b&gt;Outputs:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;Y&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; Scaled output on long real&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;YF&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; Quality code for further processing, on boolean&lt;/p&gt;&lt;p&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;PXPHR&lt;span&gt;	&lt;/span&gt;:&lt;span&gt;&amp;nbsp;Positive&amp;nbsp;&lt;/span&gt;Maximum range for&amp;nbsp;long real input (X)&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;PXPLR&lt;span&gt;	&lt;/span&gt;:&lt;span&gt;&amp;nbsp;Positive&amp;nbsp;&lt;/span&gt;Minimum range for long&amp;nbsp;real input (X)&lt;/p&gt;&lt;p&gt;PXNHR : Negative Maximum range on long real input (X)&lt;/p&gt;&lt;p&gt;PXNLR : Negative Minimum range on long real input (X)&lt;/p&gt;&lt;p&gt;&lt;span&gt;PYHR&lt;/span&gt;&lt;span&gt;	&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span&gt;	&lt;/span&gt;&lt;span&gt;Maximum range for long&amp;nbsp;real output (Y)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;PYLR&lt;span&gt;	&lt;/span&gt;:&lt;span&gt;	&lt;/span&gt;Minimum range for long&amp;nbsp;real output (Y)&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;PLIM : Limit Scaling to min and max range, on boolean&lt;/p&gt;&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Depending on input range, this FB scale that range into 0-1 for further standard signal processing&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="2360" width="360" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-91" value="&lt;h1&gt;Deadzone&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Inputs:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;X&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; input on long real&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;XF&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; Quality code from input module or calculation, on boolean&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Outputs:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;Y&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; Compensated input on long real format&lt;br&gt;&lt;/p&gt;&lt;p&gt;YDZ : In dead zone on boolean&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;YF&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; Quality code for further processing, on boolean&lt;/p&gt;&lt;p&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;PEF : Enable this function block on boolean&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;PPDZ : Deadzone in % on long real&lt;br&gt;&lt;/p&gt;&lt;p&gt;PHR : Maximum range on long real&lt;/p&gt;&lt;p&gt;PDZC : Deadzone center on long real&lt;/p&gt;&lt;p&gt;PLR : Minimum range on long real&lt;/p&gt;&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;This FB exist to handle unwanted / accidental or rather small input from operator, in case of an bump in the joystick in radio controller or where ever this drive signal would have come from. In this case this already exist in the physical joystick on radio controller we use so this FB is expected to&amp;nbsp; be denable and will just pas the signal though.&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="2360" width="360" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-96" value="&lt;b&gt;PWM Dither&lt;/b&gt;&lt;br&gt;hva/hvilken tilknytning?" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-97" value="&lt;h1&gt;Ramping&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Inputs:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;X&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; input on long real&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;XF&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; Quality code from input module or calculation, on boolean&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Outputs:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;Y&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; Compensated input on long real format&lt;br&gt;&lt;/p&gt;&lt;p&gt;YDZ : In dead zone on boolean&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;YF&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; Quality code for further processing, on boolean&lt;/p&gt;&lt;p&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;PEF : Enable this function block on boolean&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;PPDZ : Deadzone in % on long real&lt;br&gt;&lt;/p&gt;&lt;p&gt;PHR : Maximum range on long real&lt;/p&gt;&lt;p&gt;PDZC : Deadzone center on long real&lt;/p&gt;&lt;p&gt;PLR : Minimum range on long real&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="2920" width="360" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-98" value="+?" style="endArrow=classic;html=1;rounded=0;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Zit7KkpfHQfQK_u-nDv-96" target="4Zit7KkpfHQfQK_u-nDv-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="2390" as="sourcePoint" />
+            <mxPoint x="120" y="2340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-99" value="&lt;b&gt;quality code/&lt;br&gt;Watch dog&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="2290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-100" value="&lt;b&gt;HMI program&lt;/b&gt;&lt;br&gt;operating screen / eventhandler&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="2280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-102" value="Handling&lt;br&gt;failed" style="endArrow=classic;html=1;rounded=0;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Zit7KkpfHQfQK_u-nDv-35" target="4Zit7KkpfHQfQK_u-nDv-99">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-110" y="2100" as="sourcePoint" />
+            <mxPoint x="-60" y="2050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-103" value="Prio low&lt;br&gt;notice /&amp;nbsp;&lt;br&gt;feedback" style="endArrow=classic;html=1;rounded=0;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Zit7KkpfHQfQK_u-nDv-99" target="4Zit7KkpfHQfQK_u-nDv-100">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="55" y="2255" as="sourcePoint" />
+            <mxPoint x="55" y="2300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-104" value="&lt;h1&gt;PWM Drive&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Inputs:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;X&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; input on long real&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;XF&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; Quality code from input module or calculation, on boolean&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Outputs:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;Y&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; Compensated input on long real format&lt;br&gt;&lt;/p&gt;&lt;p&gt;YDZ : In dead zone on boolean&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;YF&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; Quality code for further processing, on boolean&lt;/p&gt;&lt;p&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;PEF : Enable this function block on boolean&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;PPDZ : Deadzone in % on long real&lt;br&gt;&lt;/p&gt;&lt;p&gt;PHR : Maximum range on long real&lt;/p&gt;&lt;p&gt;PDZC : Deadzone center on long real&lt;/p&gt;&lt;p&gt;PLR : Minimum range on long real&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="2920" width="360" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-105" value="&lt;h1&gt;PWM Dither&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Inputs:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;X&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; input on long real&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;XF&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; Quality code from input module or calculation, on boolean&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Outputs:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;Y&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; Compensated input on long real format&lt;br&gt;&lt;/p&gt;&lt;p&gt;YDZ : In dead zone on boolean&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;YF&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; Quality code for further processing, on boolean&lt;/p&gt;&lt;p&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;PEF : Enable this function block on boolean&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;PPDZ : Deadzone in % on long real&lt;br&gt;&lt;/p&gt;&lt;p&gt;PHR : Maximum range on long real&lt;/p&gt;&lt;p&gt;PDZC : Deadzone center on long real&lt;/p&gt;&lt;p&gt;PLR : Minimum range on long real&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="2920" width="360" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-106" value="&lt;h1&gt;&lt;b&gt;Function selector&lt;/b&gt;&lt;/h1&gt;&lt;h1&gt;&lt;b style=&quot;font-size: 12px&quot;&gt;Inputs:&lt;/b&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;X&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; input on long real&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;XF&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; Quality code from input module or calculation, on boolean&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Outputs:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;Y&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; Raw input on long real format&lt;br&gt;&lt;/p&gt;&lt;p&gt;YP : Function in positive range, on boolean&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;YN&lt;span&gt;&amp;nbsp;&lt;/span&gt;: Function in negative range, on boolean&lt;/p&gt;&lt;p&gt;YF : Quality code for further processing, on boolean&lt;/p&gt;&lt;p&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;PEF : Enable this function block on boolean&lt;/p&gt;&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;If check value if above or under 0, then sends further information to the Scaling FB to scale to a different input range.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="2360" width="360" height="560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
