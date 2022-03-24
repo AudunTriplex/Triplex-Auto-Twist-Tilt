@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-16T15:29:30.687Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="9nBh3UgcgXIK8vrGdFOz" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-24T13:57:28.208Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="54_My4IwzxzN25Qno50T" version="16.6.2" type="github">
   <diagram id="i3dqL916s062MHXm5JMA" name="Page-1">
-    <mxGraphModel dx="3273" dy="1181" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1897" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -673,10 +673,10 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4Zit7KkpfHQfQK_u-nDv-87" value="Long Real &amp;lt;3" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-87" value="Long Real &amp;lt;3&lt;br&gt;Long Integer &amp;lt;3&lt;br&gt;Long Time &amp;lt;3" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-540" y="1160" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4Zit7KkpfHQfQK_u-nDv-88" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-88" value="Enrico" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-560" y="1222.5" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4Zit7KkpfHQfQK_u-nDv-90" value="&lt;h1&gt;Scaling&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Inputs:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;X&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; Unscaled input on long real, no error check possible&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;XF&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; Quality code from input module or calculation, on boolean&amp;nbsp;&lt;/p&gt;&lt;p&gt;XFP : Function in Positive range, on boolean&lt;/p&gt;&lt;p&gt;XFN : Function in Negative range, on boolean&lt;/p&gt;&lt;p&gt;&lt;b&gt;Outputs:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;Y&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; Scaled output on long real&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;YF&lt;span&gt;		&lt;/span&gt;:&amp;nbsp; Quality code for further processing, on boolean&lt;/p&gt;&lt;p&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;PXPHR&lt;span&gt;	&lt;/span&gt;:&lt;span&gt;&amp;nbsp;Positive&amp;nbsp;&lt;/span&gt;Maximum range for&amp;nbsp;long real input (X)&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;PXPLR&lt;span&gt;	&lt;/span&gt;:&lt;span&gt;&amp;nbsp;Positive&amp;nbsp;&lt;/span&gt;Minimum range for long&amp;nbsp;real input (X)&lt;/p&gt;&lt;p&gt;PXNHR : Negative Maximum range on long real input (X)&lt;/p&gt;&lt;p&gt;PXNLR : Negative Minimum range on long real input (X)&lt;/p&gt;&lt;p&gt;&lt;span&gt;PYHR&lt;/span&gt;&lt;span&gt;	&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span&gt;	&lt;/span&gt;&lt;span&gt;Maximum range for long&amp;nbsp;real output (Y)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;PYLR&lt;span&gt;	&lt;/span&gt;:&lt;span&gt;	&lt;/span&gt;Minimum range for long&amp;nbsp;real output (Y)&lt;/p&gt;&lt;p&gt;&lt;span&gt;	&lt;/span&gt;PLIM : Limit Scaling to min and max range, on boolean&lt;/p&gt;&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Depending on input range, this FB scale that range into 0-1 for further standard signal processing&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
@@ -697,7 +697,7 @@
             <mxPoint x="120" y="2340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4Zit7KkpfHQfQK_u-nDv-99" value="&lt;b&gt;quality code/&lt;br&gt;Watch dog&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4Zit7KkpfHQfQK_u-nDv-99" value="&lt;b&gt;quality code&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-15" y="2290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4Zit7KkpfHQfQK_u-nDv-100" value="&lt;b&gt;HMI program&lt;/b&gt;&lt;br&gt;operating screen / eventhandler&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -984,8 +984,8 @@
         </mxCell>
         <mxCell id="4Zit7KkpfHQfQK_u-nDv-183" value="" style="shape=link;html=1;rounded=0;fontSize=12;" edge="1" parent="1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="3400" y="1360" as="sourcePoint" />
-            <mxPoint x="-850" y="1360" as="targetPoint" />
+            <mxPoint x="3400" y="1358.57" as="sourcePoint" />
+            <mxPoint x="-850" y="1358.57" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4Zit7KkpfHQfQK_u-nDv-184" value="utpakking av absolute multiturn encoder (PDO)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1432,7 +1432,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4Zit7KkpfHQfQK_u-nDv-290" value="&lt;h1&gt;Auto Twist&lt;/h1&gt;&lt;div&gt;via en global båt koordinat, vil man kunne vite posisjon på hvert enkelt relevante kran, dermed posisjon og orientasjon på disse kranene, her kan man da vite &quot;avviket&quot; som mangler mellom roller hodene som er ønskelig å kunne twistes etter hverandre med betjening av disse kranene.&amp;nbsp;&lt;br&gt;Her er det ønskerlig at CPH sikter imot NHC, og NHC sikter imot notrøret. i denne moden kan man fortsatt kjøre twist ved betjening, denne kjøringen er ønsket å bli lagret som en offset for denne autotwistingen, resettes ved reaktivering av autotwist.&lt;/div&gt;&lt;div&gt;med denne koordinat verdenen så kan man legge til krasj deteksjon mellom kraner med målig over eller definerer andre zone man vil gjøre en annen form for håndtering, eks: man svinger innen for en EX zone, da definerer vi hvor den zonen er på globale båt koordinater og forhindrer innkjøring der / ved kjøring der så er det noe hendelse som skal skje.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2810" y="740.61" width="584" height="228.78" as="geometry" />
+          <mxGeometry x="2810" y="747.44" width="584" height="228.78" as="geometry" />
         </mxCell>
         <mxCell id="4Zit7KkpfHQfQK_u-nDv-291" value="&lt;b&gt;Virtuel simulator&lt;br&gt;OPC UA&lt;/b&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1035" y="363.58000000000015" width="110" height="48.86" as="geometry" />
